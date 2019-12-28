@@ -9,7 +9,7 @@ class AddComment extends Component {
     } 
 
     handleAddComment = () => {
-      Alert.alert('Adicionao!', this.state.comment)
+      Alert.alert('Adicionado!', this.state.comment)
     }
 
     render() {
@@ -19,7 +19,7 @@ class AddComment extends Component {
             <View style={styles.container} >
               <TextInput placeholder='Pode comentar..'
               value={this.state.comment}
-              onChangeText={comment => this.setState({comment })}
+              onChangeText={comment => this.setState({ comment })}
               onSubmitEditing={this.handleAddComment} />
               <TWF onPress={() => this.setState({editMode: false})}>
                 <Icon name='times' size={15} color='#555' />

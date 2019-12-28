@@ -1,5 +1,5 @@
 dependencies: \
-  /Users/vitorporto/Desktop/cursorn/lambe/node_modules/react-native/Libraries/Vibration/RCTVibration.m \
-  /Users/vitorporto/Desktop/cursorn/lambe/node_modules/react-native/Libraries/Vibration/RCTVibration.h \
-  /Users/vitorporto/Desktop/cursorn/lambe/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
-  /Users/vitorporto/Desktop/cursorn/lambe/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h
+  /Users/vitor/cloneInsta/node_modules/react-native/Libraries/Vibration/RCTVibration.m \
+  /Users/vitor/cloneInsta/node_modules/react-native/Libraries/Vibration/RCTVibration.h \
+  /Users/vitor/cloneInsta/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
+  /Users/vitor/cloneInsta/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h

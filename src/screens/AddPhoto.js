@@ -9,46 +9,44 @@ class AddPhoto extends Component {
     comment: '',
   }
 
-pickImage = () => {
-  ImagePicker.showImagePicker ({
-    title: 'Escolha a imagem',
-    maxHeight: 600,
-    maxWidth: 800
+  pickImage = () => {
+    ImagePicker.showImagePicker({
+      title: 'Escolha a imagem',
+      maxHeight: 600,
+      maxWidth: 800
 
-  }, res => {
-    if (!res.didCancel) {
-      this.setState({image: {uri: res.uri, base64: res.data}})
-    }
-  })
-}
+    }, res => {
+      if (!res.didCancel) {
+        this.setState({ image: { uri: res.uri, base64: res.data } })
+      }
+    })
+  }
 
 
-save = async () => {
-  Alert.alert('Imagem Adicionada!', this.state.comment)
+  save = async () => {
+    Alert.alert('Imagem Adicionada!', this.state.comment)
 
-}
+  }
   render() {
     return (
-  <ScrollView>
-  <View style={styles.container} >
-    <Text style={styles.title}> Compartihe uma Imagem</Text>
-    <View style={styles.imageContainer} >
-      <Image source={this.state.image} style={styles.image} />
-    </View>
-    <TouchableOpacity onPress={this.pickImage} style={styles.button}>
-      <Text style={styles.buttomText}> Escolha a foto </Text>
-    </TouchableOpacity>
-    <TextInput placeholder='Algum comentário para a foto?'
-    style={styles.input} value={this.state.comment}
-    onChangeText={comment => this.setState({comment})}></TextInput>
-    <TouchableOpacity onPress={this.save} style={styles.button}>
-      <Text style={styles.buttomText}> Salvar </Text>
-    </TouchableOpacity>
-  </View>
-  </ScrollView>
+      <View style={styles.container} >
+        <Text style={styles.title}> Compartihe uma Imagem</Text>
+        <View style={styles.imageContainer} >
+          <Image source={this.state.image} style={styles.image} />
+        </View>
+        <TouchableOpacity onPress={this.pickImage} style={styles.button}>
+          <Text style={styles.buttomText}> Escolha a foto </Text>
+        </TouchableOpacity>
+        <TextInput placeholder='Algum comentário para a foto?'
+          style={styles.input} value={this.state.comment}
+          onChangeText={comment => this.setState({ comment })}></TextInput>
+        <TouchableOpacity onPress={this.save} style={styles.button}>
+          <Text style={styles.buttomText}> Salvar </Text>
+        </TouchableOpacity>
+      </View>
     )
   }
-  }
+}
 
 
 const styles = StyleSheet.create({

@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/vitorporto/Desktop/cursorn/lambe/node_modules/react-native/ReactCommon/jsinspector/InspectorInterfaces.cpp \
-  /Users/vitorporto/Desktop/cursorn/lambe/node_modules/react-native/ReactCommon/jsinspector/InspectorInterfaces.h
+  /Users/vitor/cloneInsta/node_modules/react-native/ReactCommon/jsinspector/InspectorInterfaces.cpp \
+  /Users/vitor/cloneInsta/node_modules/react-native/ReactCommon/jsinspector/InspectorInterfaces.h

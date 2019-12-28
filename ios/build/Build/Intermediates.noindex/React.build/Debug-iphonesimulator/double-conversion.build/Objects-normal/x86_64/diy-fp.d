@@ -1,4 +1,4 @@
 dependencies: \
-  /Users/vitorporto/Desktop/cursorn/lambe/node_modules/react-native/third-party/double-conversion-1.1.5/src/diy-fp.cc \
-  /Users/vitorporto/Desktop/cursorn/lambe/node_modules/react-native/third-party/double-conversion-1.1.5/src/diy-fp.h \
-  /Users/vitorporto/Desktop/cursorn/lambe/node_modules/react-native/third-party/double-conversion-1.1.5/src/utils.h
+  /Users/vitor/cloneInsta/node_modules/react-native/third-party/double-conversion-1.1.5/src/diy-fp.cc \
+  /Users/vitor/cloneInsta/node_modules/react-native/third-party/double-conversion-1.1.5/src/diy-fp.h \
+  /Users/vitor/cloneInsta/node_modules/react-native/third-party/double-conversion-1.1.5/src/utils.h
