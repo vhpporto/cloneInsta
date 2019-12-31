@@ -6,28 +6,7 @@ import Post from '../components/Post'
 // import { Container } from './styles';
 
 class Feed extends Component {
-  state = {
-    posts : [{
-      id: Math.random(),
-      nickname: 'Rafael Pereira',
-      email: 'rafarepe@gmail.com',
-      image: require('../../assets/imgs/fence.jpg'),
-      comments: [{
-        nickname: 'Joan Araujo',
-        comment: 'Stunnig!'
-      }, {
-        nickname: 'JOao da silva',
-        comment: 'TOp da balada',
-      }]
-    }, {
-      id: Math.random(),
-      nickname: 'Paulo araruo',
-      email: 'paulo@hotmail.com',
-      image: require('../../assets/imgs/bw.jpg'),
-      comments: []
 
-    }]
-  }
 
   render() {
     return(
